@@ -1,0 +1,224 @@
+*{
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* title bar */
+.main-container{
+    position: relative;
+    display: flex;
+    width: 100%S;
+}
+.name h1{
+    color: #fff;
+    padding: 20px;
+    width: 40%;
+    margin-left: 180px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/* ดึงรูปขึ้น */
+.tab-nav-bar{
+    margin: 70px 10px 40px 10px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+}
+/* ----------- */
+.tab-navigation{
+    margin-top: -70px;
+    display: flex;
+    justify-content: end;
+    width: 90%;
+  
+}
+.tab-menu{
+    align-items: center;
+    color: #fff;
+    list-style: none;
+    width: auto;
+    padding: 10px;
+    border-radius: 50px;
+    white-space: nowrap;
+    border-bottom: 1px solid;
+}
+.tab-menu li{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 5px; 
+}
+.tab-menu a{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.tab-menu a:hover{
+    text-decoration: none;
+    background-color: burlywood;
+    color: brown;
+}
+.paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button {
+    background-color: #dde797;
+    color: #212121;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #212121;
+    border: 2px solid #4CAF50;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #4CAF50;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4CAF50;
+    color: #212121;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #212121;
+    color: #4CAF50;
+  }
+  
+  .dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+  }
+  
+  .dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+  }
+  
+  .paste-button:hover button {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .paste-button:hover .dropdown-content {
+    display: block;
+  }
+  /* จบแถบด้านบน */
+.home{
+    padding: 100px 200px;
+    position:absolute;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg{
+  background-image: url(https://images.unsplash.com/photo-1682685796965-9814afcbff55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.home .content{ 
+    z-index: 1;
+    color: #fff;
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.content h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+.content p{
+    font-size: 14px;
+    margin-bottom: 65px;
+    width: 80%;
+}
+.content a{
+    background-color: #fff;
+    color: black;
+    padding: 15px 35px;
+    font-size: 2em;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.home .media-icons{
+    z-index: 888;
+    position: absolute;
+    right: 300=px;
+    display: flex;
+    flex-direction: column;
+    transition: 05.s ease;
+}
+
+.dropdown{
+    margin-left: 90%;
+}
+
+.contact{
+  background-color: rgb(42, 34, 23);
+  z-index: 1;
+  position: absolute;
+  bottom: 23px;
+  width: 100%;
+}
+
+.contact-info{
+  justify-content: center;
+  color: rgb(213, 213, 225);
+  display: flex;
+  
+}
+.contact-info p{
+  margin: 10px;
+}
+
+.footer{
+    position: absolute;
+    font-size: 13px;
+    height: 25px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    background: #fff; 
+  
+}
+.footer p{
+   
+   text-align: center;
+  
+}

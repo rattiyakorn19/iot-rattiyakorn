@@ -1,0 +1,207 @@
+/* start RESUME */
+                        /* Block1 */
+
+                        .main-container{
+                            position: relative;
+                        }
+                        
+                        .resume{
+                            width: 180mm;
+                            height: 210mm;
+                            margin: 20px auto;
+                            padding: 0cm;
+                            display: grid;
+                            grid-template-columns: repeat(auto,(minmax,2fr));
+                            box-shadow: 0 0 10px black;
+                            flex-flow: row wrap;
+                        }
+                        .block1{
+                            background-color: #e86100;
+                            height: 100;
+                            display: flex;
+                        }
+                        .picture img {
+                            display: flex;
+                            align-items: center;
+                            width: 200px;
+                            height:200px;
+                            border-radius: 50%;
+                            
+                            top: 60px; 
+                            left: 80px; 
+                            border: 5px solid #014421;
+                            z-index: 1; 
+                        }
+                        
+                        .cover-name {
+                            margin: 80px 50px 0px 100px;
+                            /* height: 35px; */
+                            width:250px;
+                            background-color:#ecebbd;
+                            padding: 60px;
+                            margin-left: 10px;
+                            border-bottom-right-radius: 500px;
+                            border-top-right-radius: 500px;
+                            z-index: 1; 
+                        }
+                        .name{
+                            font-family: sans-serif;
+                            font-size: 25px;
+                            text-align: left;
+                            margin-top: -90px;
+                            text-transform: uppercase;
+                            margin-left: -40px;
+                        }
+                        .personal-1 p{
+                            font-size: 15px;
+                            font-style: italic;
+                            font-family: Impact, Haettenschweiler, 'Arial Narrow',;
+                            margin-top: -30px;
+                        }
+                        
+                        .personal {
+                          justify-content: center;
+                          align-items: center;
+                        }
+                                                    
+                                                        /* Block2 */
+                        
+                        .Block2{
+                            /* padding: 20px; */
+                            height: 80%;
+                            background-color: antiquewhite;
+                        }
+                        
+                        /* BAR left */
+                        
+                        .content-left{
+                            /* border:solid red; */
+                            background-color:#ecebbd;
+                            width: 25%;
+                            height: 81%;
+                            padding: 50px;
+                            margin: 10px -10px 25px 15px;
+                            float: left;
+                        }
+                        
+                        
+                        .personal{
+                            height: 30%;
+                            /* background-color: #c5e384; */
+                        
+                        }
+                        .personal h3{
+                            margin-top: 30px;
+                            font-size: 20px;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                            margin-bottom: 20px;
+                        }
+                        .personal p{
+                            font-size: 12px;
+                            margin: 0px 5px 20px -20px;
+                            font-family: cursive;
+                            border-bottom: 1px solid black;
+                        }
+                        .contact{
+                            height: 30%;
+                            /* background-color: #c5e384; */
+                        }
+                        .contact h3{
+                            font-size: 20px;
+                            font-family: sans-serif;
+                            margin-top: 40px;
+                            text-transform: uppercase;
+                          
+                        }
+                        .contact p{
+                            font-size: 12px;
+                            font-family: cursive;
+                            margin: 0px 5px 15px -20px;
+                            border-bottom: 1px solid black;}
+                        .skill{
+                            height: 30%;
+                            /* background-color: #c5e384; */
+                        }
+                        .skill h3{
+                            margin-top: 8px;
+                            font-size: 20px;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                        }
+                        .skill ul{
+                            margin-left: -20px;
+                        }
+                        .skill p{
+                            font-size: 12px;
+                            font-family: cursive;
+                            margin: 0px 5px 20px 0px;
+                            border-bottom: 1px solid black;}
+                        /* stop BAR left */
+                        
+                         /* BAR right */
+                        
+                         .content-right{
+                           
+                            background-color:#ecebbd;
+                            width: 300px;
+                            height: 80%;
+                            padding: 30px;
+                            margin: 54px 0 15px 25px;
+                            float: left;
+                        }
+                        .education h3{
+                            margin-top: 20px;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                            margin: 20px 0px 10px px;
+                        }
+                        /* .education ul{
+                            margin: 0px 0px 15px 0px;
+                        } */
+                        .KMUTNB h3{
+                            font-size: 15px;
+                            margin: 10px 0px 5px -5px;
+                        }
+                        .KMUTNB p{
+                            margin: 10px 0px 20px -5px;
+                            margin-top: 20px;
+                            font-family: cursive;
+                            font-size: 12px;
+                        }
+                        
+                        .education h4{
+                            text-align: end;
+                            font-size: 12px;
+                            font-weight: lighter;
+                            margin-left: -5px;
+                            margin-top: 5px;
+                        }
+                        .CATC h3{
+                            font-size: 15px;
+                            margin: 10px 0px 5px -5px;
+                        }
+                        .CATC p{
+                            margin: 10px 0px 10px -5px;
+                            font-size: 12px;
+                            font-family: cursive;
+                        }
+                        
+                        
+                        .experience h3{
+                            font-size: 20px;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                            margin: 10px 0px 8px 2px;
+                        } 
+                        .experience-info li{
+                            font-size: 12px;
+                            font-family: cursive;
+                            margin: 10px 20px 5px -5px;
+                            border-bottom: 1px solid black;
+                        }
+                        .experience-info p{
+                            font-size: 12px;
+                            font-family: cursive;
+                        }
+                        
