@@ -27,6 +27,8 @@
   }
   .content .header-info p{
     color: aliceblue;
+    font-size: 16px;
+    font-family: monospace;
     
   }
   .header-info {
